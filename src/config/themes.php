@@ -6,16 +6,22 @@ return [
     'themes' => [
         'default' => [
             'views_path' => 'resources/themes/default/views',
-            'assets_path' => 'public/themes/default/assets',
+            'assets_path' => 'public/themes/default/custom_assets',
             'name' => 'Default'
         ],
 
         'velocity' => [
-            'views_path' => 'resources/themes/velocity/views',
+            'views_path' => 'resources/themes/velocity/custom',
             'assets_path' => 'public/themes/velocity/assets',
             'name' => 'Velocity',
             'parent' => 'default'
         ],
+        // 'velocity' => [
+        //     'views_path' => 'resources/themes/velocity/views',
+        //     'assets_path' => 'public/themes/velocity/assets',
+        //     'name' => 'Velocity',
+        //     'parent' => 'default'
+        // ],
     ],
 
     'admin-default' => 'default',
