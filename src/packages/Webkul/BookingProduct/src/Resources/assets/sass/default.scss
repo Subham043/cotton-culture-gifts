@@ -32,7 +32,7 @@
         }
 
         .toggle {
-            color: #0041FF;
+            color: #ffae04;
             cursor: pointer;
             -webkit-touch-callout: none;
             -webkit-user-select: none;
@@ -82,7 +82,7 @@
                         .text-danger {
                             color: #ff5656;
                         }
-                    }    
+                    }
                 }
             }
         }
@@ -99,7 +99,7 @@
             color: #242424;
             margin-top: 0;
         }
-        
+
         label {
             color: #3a3a3a;
         }
@@ -131,7 +131,7 @@
 
                     &::after {
                         top: 16px;
-                        left: 100%; 
+                        left: 100%;
                     }
 
                     .cross-icon {
@@ -167,7 +167,7 @@
                 display: inline-block;
                 padding: 16px 0;
                 border-bottom: solid 1px #e8e8e8;
-                
+
                 &:last-child {
                     border-bottom: 0;
                 }
@@ -201,7 +201,7 @@
                             margin-bottom: 0;
                             border-top: 0;
                             padding-top: 0;
-                            
+
                             label {
                                 display: none;
                             }
@@ -258,4 +258,4 @@ body {
             }
        }
     }
-} 
+}

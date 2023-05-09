@@ -124,7 +124,7 @@
             }
 
             .table-header {
-                color: #0041FF;
+                color: #ffae04;
             }
 
             .align-left {
@@ -132,11 +132,11 @@
             }
 
             .invoice-text {
-                font-size: 40px; 
-                color: #3c41ff; 
+                font-size: 40px;
+                color: #3c41ff;
                 font-weight: bold;
-                position: absolute; 
-                width: 100%; 
+                position: absolute;
+                width: 100%;
                 left: 0;
                 text-align: center;
                 top: -6px;
@@ -146,7 +146,7 @@
                 height: 35px;
                 width: 35px;
             }
-            
+
             .header {
                 padding: 0px 2px;
                 width: 100%;
@@ -221,7 +221,7 @@
                                 <span class="label">{{ __('admin::app.sales.invoices.order-id') }}: </span>
                                 <span class="value">#{{ $invoice->order->increment_id }}</span>
                             </div>
-                           
+
                             <div class="row">
                                 <span class="label">{{ __('admin::app.sales.invoices.order-date') }}: </span>
                                 <span class="value">{{ core()->formatDate($invoice->order->created_at, 'd-m-Y') }}</span>
@@ -238,7 +238,7 @@
                                 <div class="row" style="padding-top: 20px">
                                     <span class="merchant-details-title">
                                         {{ __('admin::app.admin.system.bank-details') }}:
-                                    </span> 
+                                    </span>
                                     <div>{{ core()->getConfigData('sales.shipping.origin.bank_details') }}</div>
                                 </div>
                             @endif

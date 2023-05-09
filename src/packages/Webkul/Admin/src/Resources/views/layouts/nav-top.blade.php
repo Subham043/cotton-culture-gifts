@@ -20,8 +20,8 @@
                     <img src="{{ \Illuminate\Support\Facades\Storage::url(core()->getConfigData('general.design.admin_logo.logo_image', core()->getCurrentChannelCode())) }}" alt="{{ config('app.name') }}" style="height: 40px; width: 110px;"/>
                 @else
                     <default-image
-                        light-theme-image-url="{{ asset('vendor/webkul/ui/assets/images/logo.png') }}"
-                        dark-theme-image-url="{{ asset('vendor/webkul/ui/assets/images/logo_light.png') }}"
+                        light-theme-image-url="{{ asset('themes/velocity/assets/images/static/logo.png') }}"
+                        dark-theme-image-url="{{ asset('themes/velocity/assets/images/static/logo.png') }}"
                     ></default-image>
                 @endif
             </a>
@@ -109,7 +109,7 @@
                                 <a href="{{ route('admin.session.destroy') }}">{{ __('admin::app.layouts.logout') }}</a>
                             </li>
                         </ul>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <header class="sticky-header">
     <div class="row remove-padding-margin velocity-divide-page">
         <a class="left navbar-brand" href="{{ route('shop.home.index') }}" aria-label="Logo">
-            <img class="logo" src="{{ core()->getCurrentChannel()->logo_url ?? asset('themes/velocity/assets/images/logo-text.png') }}" alt="" />
+            <img class="logo" src="{{ core()->getCurrentChannel()->logo_url ?? asset('themes/velocity/assets/images/logo.png') }}" alt="" />
         </a>
 
         <div class="right searchbar">

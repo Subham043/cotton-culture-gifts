@@ -24,8 +24,8 @@
 
         &.active {
             cursor: not-allowed;
-            border-color: #0041ff;
-            background-color: #0041ff;
+            border-color: #ffae04;
+            background-color: #ffae04;
             border: 1px solid;
         }
 
@@ -38,7 +38,7 @@
 }
 
 .vuecal__event {
-    background: #0041ff !important;
+    background: #ffae04 !important;
     color: #fff !important;
     cursor: pointer;
 

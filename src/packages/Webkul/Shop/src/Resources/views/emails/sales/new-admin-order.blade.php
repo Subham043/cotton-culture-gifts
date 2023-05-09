@@ -4,7 +4,7 @@
             @if (core()->getConfigData('general.design.admin_logo.logo_image'))
                 <img src="{{ \Illuminate\Support\Facades\Storage::url(core()->getConfigData('general.design.admin_logo.logo_image')) }}" alt="{{ config('app.name') }}" style="height: 40px; width: 110px;"/>
             @else
-                <img src="{{ asset('vendor/webkul/ui/assets/images/logo.png') }}" alt="{{ config('app.name') }}"/>
+                <img src="{{ asset('themes/velocity/assets/images/static/logo.png') }}" alt="{{ config('app.name') }}"/>
             @endif
         </a>
     </div>
@@ -21,7 +21,7 @@
 
             <p style="font-size: 16px;color: #5E5E5E;line-height: 24px;">
                 {!! __('shop::app.mail.order.greeting-admin', [
-                    'order_id' => '<a href="' . route('admin.sales.orders.view', $order->id) . '" style="color: #0041FF; font-weight: bold;">#' . $order->increment_id . '</a>',
+                    'order_id' => '<a href="' . route('admin.sales.orders.view', $order->id) . '" style="color: #ffae04; font-weight: bold;">#' . $order->increment_id . '</a>',
                     'created_at' => $order->created_at
                     ])
                 !!}
@@ -228,7 +228,7 @@
             <p style="font-size: 16px;color: #5E5E5E;line-height: 24px;">
                 {!!
                     __('shop::app.mail.order.help', [
-                        'support_email' => '<a style="color:#0041FF" href="mailto:' . config('mail.admin.address') . '">' . config('mail.admin.address') . '</a>'
+                        'support_email' => '<a style="color:#ffae04" href="mailto:' . config('mail.admin.address') . '">' . config('mail.admin.address') . '</a>'
                         ])
                 !!}
             </p>

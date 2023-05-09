@@ -51,7 +51,7 @@ class ChannelTableSeeder extends Seeder
                             </ul>
                         </div>
                 ',
-                'home_seo'          => '{"meta_title": "Demo store", "meta_keywords": "Demo store meta keyword", "meta_description": "Demo store meta description"}',
+                'home_seo'          => '{"meta_title": "Cotton Culture", "meta_keywords": "Cotton Culture meta keyword", "meta_description": "Cotton Culture meta description"}',
             ], [
                 'id'                => 2,
                 'channel_id'        => 1,
@@ -92,7 +92,7 @@ class ChannelTableSeeder extends Seeder
                             </ul>
                         </div>
                 ',
-                'home_seo'          => '{"meta_title": "Demo store", "meta_keywords": "Demo store meta keyword", "meta_description": "Demo store meta description"}',
+                'home_seo'          => '{"meta_title": "Cotton Culture", "meta_keywords": "Cotton Culture meta keyword", "meta_description": "Cotton Culture meta description"}',
             ], [
                 'id'                => 3,
                 'channel_id'        => 1,
@@ -133,7 +133,7 @@ class ChannelTableSeeder extends Seeder
                             </ul>
                         </div>
                 ',
-                'home_seo'          => '{"meta_title": "Demo store", "meta_keywords": "Demo store meta keyword", "meta_description": "Demo store meta description"}',
+                'home_seo'          => '{"meta_title": "Cotton Culture", "meta_keywords": "Cotton Culture meta keyword", "meta_description": "Cotton Culture meta description"}',
             ], [
                 'id'                => 4,
                 'channel_id'        => 1,
@@ -174,7 +174,7 @@ class ChannelTableSeeder extends Seeder
                             </ul>
                         </div>
                 ',
-                'home_seo'          => '{"meta_title": "Demo store", "meta_keywords": "Demo store meta keyword", "meta_description": "Demo store meta description"}',
+                'home_seo'          => '{"meta_title": "Cotton Culture", "meta_keywords": "Cotton Culture meta keyword", "meta_description": "Cotton Culture meta description"}',
             ], [
                 'id'                => 5,
                 'channel_id'        => 1,
@@ -215,7 +215,7 @@ class ChannelTableSeeder extends Seeder
                             </ul>
                         </div>
                 ',
-                'home_seo'          => '{"meta_title": "Demo store", "meta_keywords": "Demo store meta keyword", "meta_description": "Demo store meta description"}',
+                'home_seo'          => '{"meta_title": "Cotton Culture", "meta_keywords": "Cotton Culture meta keyword", "meta_description": "Cotton Culture meta description"}',
             ]
         ]);
 

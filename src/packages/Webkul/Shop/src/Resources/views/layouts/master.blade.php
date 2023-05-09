@@ -89,7 +89,7 @@
 
         <overlay-loader :is-open="show_loader"></overlay-loader>
 
-        <go-top bg-color="#0041ff"></go-top>
+        <go-top bg-color="#ffae04"></go-top>
     </div>
 
     <script type="text/javascript">
