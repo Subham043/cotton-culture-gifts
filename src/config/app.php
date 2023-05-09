@@ -222,7 +222,9 @@ return [
         Webkul\DebugBar\Providers\DebugBarServiceProvider::class,
         Webkul\Marketing\Providers\MarketingServiceProvider::class,
         Webkul\Notification\Providers\NotificationServiceProvider::class,
-        Webkul\Sitemap\Providers\SitemapServiceProvider::class
+        Webkul\Sitemap\Providers\SitemapServiceProvider::class,
+        // Razorpay provider
+        Wontonee\Razorpay\Providers\RazorpayServiceProvider::class,
     ])->toArray(),
 
     /*
